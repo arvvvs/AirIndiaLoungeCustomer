@@ -121,7 +121,56 @@ body{
 .top-img-list li{
         list-style:none;
         display:inline;
-        padding:0%;
+}
+.question1{
+        margin-right: 10%;
+}
+
+.question2{
+        margin-right: 11.4%;
+}
+.question3{
+        margin-right: 8.8%;
+}
+.question4{
+        margin-right: 9.1%;
+}
+
+.question5{
+        margin-right: 7.9%;
+}
+.question6{
+        margin-right: 11.3%;
+}
+.feedback{
+        margin-right: 10%;
+        margin-left: 10%;
+        color: #C32026;
+}
+textarea{
+        resize: horizontal;
+}
+.questions{
+        display: inline;
+}
+.questionsOL{
+        display: block;
+        margin-right: 10%;
+        margin-left: 10%;
+}
+.questionsOL li{
+        margin-bottom:1%;
+}
+.forms{
+        display: inline;
+}
+.forms form{
+        display:inline;
+        position: relative;
+}
+.forms form label{
+        margin-right: 9%;
+
 }
 
 
