@@ -123,24 +123,29 @@ body{
         display:inline;
 }
 .question1{
-        margin-right: 10%;
+       margin: 0;
+       padding: 0;
+       display: inline-block;
+       //width: 23.5em;
+       width: 38%;
+       text-align:left;
 }
 
 .question2{
-        margin-right: 11.4%;
+        //margin-right: 11.4%;
 }
 .question3{
-        margin-right: 8.8%;
+      //  margin-right: 8.8%;
 }
 .question4{
-        margin-right: 9.1%;
+       // margin-right: 9.1%;
 }
 
 .question5{
-        margin-right: 7.9%;
+       // margin-right: 7.9%;
 }
 .question6{
-        margin-right: 11.3%;
+        //margin-right: 11.3%;
 }
 .feedback{
         margin-right: 10%;
@@ -163,15 +168,18 @@ textarea{
 }
 .forms{
         display: inline;
-        white-space:pre-line;
 }
 .forms form{
         display:inline;
-        position: relative;
+       // position: relative;
+       white-space:nowrap;
 }
 .forms form label{
-        margin-right: 9%;
+        margin-right: 6%;
 
+}
+.forms form label:last-child{
+        margin-right: 0%;
 }
 
 
