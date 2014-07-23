@@ -163,6 +163,7 @@ textarea{
 }
 .forms{
         display: inline;
+        white-space:pre-line;
 }
 .forms form{
         display:inline;
