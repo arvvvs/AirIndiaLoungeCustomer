@@ -154,6 +154,7 @@ body{
 }
 textarea{
         resize: horizontal;
+        width: 50%;
 }
 .questions{
         display: inline;
