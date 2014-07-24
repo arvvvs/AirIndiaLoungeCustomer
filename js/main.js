@@ -8,12 +8,13 @@ $(document).ready(function() {
 
                 if(this.value === "2" || this.value ==="1"){
 //                    $('.suggestionsImprove').show();
-                    $(this).closest('li').children('.suggestionsImprove').show();
+                    $(this).closest('li').children('.suggestionsImprove').show("slow");
                 }
                 else{
 //                $(this).closest('li').(textArea);
-                $('.suggestionsImprove').hide();
+                $(this).closest('li').children('.suggestionsImprove').hide("slow");
                 }
+
         }
         );
       // $('textarea').autoResize(); 
