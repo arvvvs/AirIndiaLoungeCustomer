@@ -153,8 +153,16 @@ body{
         color: #C32026;
 }
 textarea{
-        resize: horizontal;
+        resize: both;
         width: 50%;
+}
+.suggestionsImprove{
+        padding-bottom: 3%;
+        resize: both;
+        height: 9em;
+}
+.suggestionsImprove textarea{
+        height: 100%;
 }
 .questions{
         display: inline;
