@@ -99,7 +99,7 @@ textarea {
 .buttons{
         margin:0 auto;
         float: center;
-        padding-bottom: 10%;
+        padding-bottom: 1%;
         text-align: center;
 }
 .lounge-question{
@@ -137,22 +137,6 @@ body{
        text-align:left;
 }
 
-.question2{
-        //margin-right: 11.4%;
-}
-.question3{
-      //  margin-right: 8.8%;
-}
-.question4{
-       // margin-right: 9.1%;
-}
-
-.question5{
-       // margin-right: 7.9%;
-}
-.question6{
-        //margin-right: 11.3%;
-}
 .feedback{
         margin-right: 10%;
         margin-left: 10%;
@@ -172,6 +156,8 @@ textarea{
 }
 .questions{
         display: inline;
+}
+.wrapper{
 }
 @media all and (max-width: 699px){
         .question1{

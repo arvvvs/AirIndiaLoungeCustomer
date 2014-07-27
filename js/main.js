@@ -27,5 +27,6 @@ $(document).ready(function() {
       $('#submit').click(function() {
               $(".lounge-survey").submit()
       }
-        });
+        );
+});
 
