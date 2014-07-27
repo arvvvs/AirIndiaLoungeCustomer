@@ -193,6 +193,9 @@ textarea{
                 padding-bottom: 5%;
                 padding-top: 5%;
         }
+.top-img-list li{
+        display: block;
+}
 }
 .questionsOL{
         display: block;
