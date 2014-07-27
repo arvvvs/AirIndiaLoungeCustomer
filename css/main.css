@@ -167,6 +167,10 @@ textarea{
 .questions{
         display: inline;
 }
+@media all and (max-width: 699px) and (min-width: 520px){
+        .forms form{
+                display: block;
+        }
 .questionsOL{
         display: block;
         margin-right: 10%;
