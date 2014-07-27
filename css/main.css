@@ -193,8 +193,13 @@ textarea{
                 padding-bottom: 5%;
                 padding-top: 5%;
         }
+.top-img-list{
+        padding: 0;
+}
 .top-img-list li{
         display: block;
+        margin-left:10%;
+        margin-right: 10%;
 }
 }
 .questionsOL{
