@@ -96,6 +96,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+<<<<<<< HEAD
+=======
+.buttons{
+        margin:0 auto;
+        float: center;
+        padding-bottom: 1%;
+        text-align: center;
+}
+>>>>>>> gh-pages
 .lounge-question{
        margin:0;
        margin-right: 10%;
@@ -131,6 +140,7 @@ body{
        text-align:left;
 }
 
+<<<<<<< HEAD
 .question2{
         //margin-right: 11.4%;
 }
@@ -147,6 +157,8 @@ body{
 .question6{
         //margin-right: 11.3%;
 }
+=======
+>>>>>>> gh-pages
 .feedback{
         margin-right: 10%;
         margin-left: 10%;
@@ -167,6 +179,45 @@ textarea{
 .questions{
         display: inline;
 }
+<<<<<<< HEAD
+=======
+.wrapper{
+}
+@media all and (max-width: 699px){
+        .question1{
+                display: block;
+                width: 50%;
+        }
+
+        .forms form{
+                
+                white-space: normal;
+        }
+        .forms{
+                display: block;
+        }
+        .suggestionsImprove{
+                width: 100%;
+        }
+        textarea{
+                width: 100%;
+        }
+        .forms form label{
+                padding-right: 50%;
+        }
+        .questionsOL li{
+                padding-bottom: 5%;
+                padding-top: 5%;
+        }
+.top-img-list{
+        padding: 0;
+        margin-left: 0;
+}
+.top-img-list li{
+        display: block;
+}
+}
+>>>>>>> gh-pages
 .questionsOL{
         display: block;
         margin-right: 10%;
@@ -181,10 +232,18 @@ textarea{
 .forms form{
         display:inline;
        // position: relative;
+<<<<<<< HEAD
        white-space:nowrap;
 }
 .forms form label{
         margin-right: 6%;
+=======
+//       white-space:nowrap;
+}
+.forms form label{
+        margin-right: 6%;
+        white-space: nowrap;
+>>>>>>> gh-pages
 
 }
 .forms form label:last-child{
