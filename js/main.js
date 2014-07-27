@@ -1,6 +1,7 @@
 $(document).ready(function() {
                   var textArea='<textarea name="otherSuggestions" rows="10" col="53"> What can we do to improve this feature?</textarea>';
        // $("input[type='radio']").closest('li').append(textArea);
+       $('form').addClass("lounge-survey");
         
         $("input[type='radio']").click(function() {
                 //$("input[value='1']").closest('li').append(textArea);
@@ -23,5 +24,8 @@ $(document).ready(function() {
               $('.suggestionsImprove').hide("slow");
 
       });
+      $('#submit').click(function() {
+              $(".lounge-survey").submit()
+      }
         });
 
