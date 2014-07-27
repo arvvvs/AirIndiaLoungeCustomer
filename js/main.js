@@ -18,5 +18,10 @@ $(document).ready(function() {
         }
         );
       // $('textarea').autoResize(); 
+      $("#clear").click(function() {
+              $("input[type='radio']").attr('checked',false);
+              $('.suggestionsImprove').hide("slow");
+
+      });
         });
 

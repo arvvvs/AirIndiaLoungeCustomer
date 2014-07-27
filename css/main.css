@@ -101,12 +101,6 @@ textarea {
         float: center;
         text-align: center;
 }
-button{
-        text-align: center;
-        margin: 0 auto;
-        position: absolute;
-        float: center;
-}
 .lounge-question{
        margin:0;
        margin-right: 10%;
