@@ -189,6 +189,10 @@ textarea{
         .forms form label{
                 padding-right: 50%;
         }
+        .questionsOL li{
+                padding-bottom: 5%;
+                padding-top: 5%;
+        }
 }
 .questionsOL{
         display: block;
