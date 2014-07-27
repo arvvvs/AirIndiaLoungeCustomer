@@ -167,18 +167,24 @@ textarea{
 .questions{
         display: inline;
 }
-@media all and (max-width: 699px) and (min-width: 520px){
+@media all and (max-width: 699px){
         .question1{
                 display: block;
                 width: 50%;
         }
 
         .forms form{
+                
+                white-space: normal;
+        }
+        .forms{
                 display: block;
-                white-space: pre-line;
+        }
+        .suggestionsImprove{
+                width: 100%;
         }
         textarea{
-                width: 109%;
+                width: 100%;
         }
 }
 .questionsOL{
@@ -195,7 +201,7 @@ textarea{
 .forms form{
         display:inline;
        // position: relative;
-       white-space:nowrap;
+//       white-space:nowrap;
 }
 .forms form label{
         margin-right: 6%;
