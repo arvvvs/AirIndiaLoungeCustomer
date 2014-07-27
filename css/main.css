@@ -174,7 +174,10 @@ textarea{
 
         .forms form{
                 display: block;
-                white-space: wrap;
+                white-space: pre-line;
+        }
+        textarea{
+                width: 100%;
         }
 }
 .questionsOL{
