@@ -186,6 +186,9 @@ textarea{
         textarea{
                 width: 100%;
         }
+        .forms form label{
+                padding-right: 50%;
+        }
 }
 .questionsOL{
         display: block;
