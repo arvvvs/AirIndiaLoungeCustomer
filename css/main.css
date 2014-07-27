@@ -99,6 +99,7 @@ textarea {
 .buttons{
         margin:0 auto;
         float: center;
+        padding-bottom: 10%;
         text-align: center;
 }
 .lounge-question{
