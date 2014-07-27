@@ -168,6 +168,10 @@ textarea{
         display: inline;
 }
 @media all and (max-width: 699px) and (min-width: 520px){
+        .question1{
+                width: 50%;
+        }
+
         .forms form{
                 display: block;
         }
