@@ -169,14 +169,16 @@ textarea{
 }
 @media all and (max-width: 699px) and (min-width: 520px){
         .question1{
+                display: block;
                 width: 50%;
         }
 
         .forms form{
                 display: block;
+                white-space: pre-line;
         }
         textarea{
-                width: 100%;
+                width: 109%;
         }
 }
 .questionsOL{
